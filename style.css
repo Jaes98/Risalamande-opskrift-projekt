@@ -1,21 +1,22 @@
 /* font taget fra font generator, href i html */
 body {
-  background-color: red;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
 }
 header {
-  background-color: blue;
-  color: white;
+  background-color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
 }
 section {
-  background-color: orange;
-  color: wheat;
+  background-color: white;
+  color: black;
   font-family: "Montserrat", sans-serif;
 }
+#about h1
 h2 {
-  color: darkgrey;
+  color: black;
   font-family: "Roboto Condensed", sans-serif;
 }
 footer {
