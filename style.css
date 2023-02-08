@@ -1,20 +1,44 @@
 /* font taget fra font generator, href i html */
-body {
-  background-color: white;
-  color: black;
-  font-family: "Montserrat", sans-serif;
-}
 header {
   background-color: white;
   color: black;
   font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: white;
+  color: black;
+  font-family: "Metrophobic", sans-serif;
+}
+#intro {
+  border-width: 1px;
+  border-color: red;
+  border-style: dashed;
+}
+#ingrliste {
+    border-width: 1px;
+  border-color: black;
+  border-style: double;
+}
+ol {
+  background: #ff9999;
+  padding: 20px;
+}
+ol li {
+  background: #ffe5e5;
+  color: darkslategrey;
+  padding: 5px;
+  margin-left: 35px;
 }
 section {
   background-color: white;
   color: black;
   font-family: "Montserrat", sans-serif;
 }
-#about h1
+h1 {
+  width: 50%;
+  height: 50%;
+}
 h2 {
   color: black;
   font-family: "Roboto Condensed", sans-serif;
@@ -24,8 +48,4 @@ footer {
   color: black;
   font-family: verdana;
 }
-/* lav height, width og max-width
-box model?
-css links?
-styling images?
- */
+
