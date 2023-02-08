@@ -1,3 +1,4 @@
+/* font taget fra font generator, href i html */
 body {
   background-color: red;
   color: white;
@@ -22,3 +23,8 @@ footer {
   color: black;
   font-family: verdana;
 }
+/* lav height, width og max-width
+box model?
+css links?
+styling images?
+ */
