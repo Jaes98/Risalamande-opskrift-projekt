@@ -13,12 +13,6 @@ section {
   color: wheat;
   font-family: "Montserrat", sans-serif;
 }
-ul {
-  list-style-type: none;
-}
-nav > ul {
-  list-style-type: none;
-}
 h2 {
   color: darkgrey;
   font-family: "Roboto Condensed", sans-serif;
