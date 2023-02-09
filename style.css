@@ -2,6 +2,8 @@
 header {
   color: black;
   font-family: "Montserrat", sans-serif;
+}
+#intro {
   background-image: url(/images/christmasbackground.jpeg);
 }
 #overskrift {
