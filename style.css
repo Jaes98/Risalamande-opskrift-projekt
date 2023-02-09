@@ -4,7 +4,9 @@ header {
   color: black;
   font-family: "Montserrat", sans-serif;
 }
-
+#overskrift {
+    background-color: #f83e4b;
+}
 body {
   background-color: white;
   color: black;
@@ -16,7 +18,7 @@ body {
   border-style: dashed;
 }
 #ingrliste {
-    border-width: 1px;
+  border-width: 1px;
   border-color: black;
   border-style: double;
 }
@@ -44,8 +46,7 @@ h2 {
   font-family: "Roboto Condensed", sans-serif;
 }
 footer {
-  background-color: white;
+  background-color: #f83e4b;
   color: black;
   font-family: verdana;
 }
-
