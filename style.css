@@ -1,11 +1,11 @@
 /* font taget fra font generator, href i html */
 header {
-  background-color: white;
   color: black;
   font-family: "Montserrat", sans-serif;
+  background-image: url(/images/christmasbackground.jpeg);
 }
 #overskrift {
-  background-color: #f83e4b;
+  text-align: center;
 }
 body {
   background-color: white;
@@ -14,15 +14,13 @@ body {
   margin: 0;
   padding: 0;
 }
-#intro {
-  border-width: 1px;
-  border-color: red;
-  border-style: dashed;
-}
 #ingrliste {
   border-width: 1px;
   border-color: black;
   border-style: solid;
+}
+#ingrliste h3 {
+  text-align: center;
 }
 ol {
   background: #ff9999;
@@ -50,7 +48,7 @@ h2 {
   color: black;
   font-family: "Roboto Condensed", sans-serif;
 }
-h3 {
+#tipstricks {
   color: black;
   background-color: #ff9999;
 }
