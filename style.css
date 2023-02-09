@@ -5,7 +5,7 @@ header {
   font-family: "Montserrat", sans-serif;
 }
 #overskrift {
-    background-color: #f83e4b;
+  background-color: #f83e4b;
 }
 body {
   background-color: white;
@@ -18,9 +18,9 @@ body {
   border-style: dashed;
 }
 #ingrliste {
-  border-width: 1px;
+  border-width: 5px;
   border-color: black;
-  border-style: double;
+  border-style: solid;
 }
 ol {
   background: #ff9999;
@@ -32,6 +32,10 @@ ol li {
   padding: 5px;
   margin-left: 35px;
 }
+#ingrliste li:nth-of-type(odd) {
+  color: #f83e4b;
+}
+
 section {
   background-color: white;
   color: black;
