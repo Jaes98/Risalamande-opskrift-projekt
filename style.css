@@ -8,8 +8,8 @@ header {
   background-image: url(/images/christmasbackground.jpeg);
 }
 #overskrift {
-  text-align: center;
-  font-family: 'Fira Sans Extra Condensed', sans-serif;
+  text-align: end;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
   font-size: 50px;
 }
 body {
@@ -29,6 +29,11 @@ body {
 }
 #ingrliste h3 {
   text-align: center;
+}
+#fremgangsmåde {
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
 }
 /* styling af listen med fremgangsmåde */
 ol {
@@ -79,11 +84,20 @@ footer {
 }
 @media (min-width: 800px) {
   .grid-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
 #risbillede {
   display: block;
   width: 100%;
   height: auto;
+}
+#navi {
+  text-align: end;
+}
+#risbil {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
